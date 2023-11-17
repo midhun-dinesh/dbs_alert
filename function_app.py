@@ -7,11 +7,11 @@ def connect_to_postgres():
     try:
         # Establish a connection
         conn = psycopg2.connect(
-        database="IRIS",
+        database="",
         user="md",
-        password="AVNS_iYThQ9SOCuzGj2-H92d",
-        host="iris-iot-dev-royalihc-cff9.a.timescaledb.io",
-        port="29268"
+        password="-",
+        host="",
+        port=""
         )
 
         # Create a cursor
